@@ -1,0 +1,8 @@
+application:
+  name: fiber-demo
+  port: 8081
+  otel:
+    enable: true
+    grpc_url: localhost:4317
+service_b:
+  url: http://localhost:8080/echo
